@@ -45,3 +45,14 @@
 "column 2" "data type for column 2" [column 2 constraint(s)],
 ...
 [table constraint(s)] );
+
+Alias
+
+SELECT "table_alias"."column_name1" "column_alias"
+FROM "table_name" "table_alias";
+
+Union
+
+[SQL Statement 1]
+UNION
+[SQL Statement 2];
